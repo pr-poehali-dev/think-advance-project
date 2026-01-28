@@ -1,5 +1,5 @@
 import { LiquidCtaButton } from "@/components/buttons/LiquidCtaButton"
-import { Sparkles, ArrowRight } from "lucide-react"
+import Icon from "@/components/ui/icon"
 
 export function HeroSection() {
   return (
@@ -11,34 +11,34 @@ export function HeroSection() {
       <div className="relative z-10 text-center max-w-3xl mx-auto">
         {/* Badge - customize your announcement */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-zinc-900/80 border border-zinc-800 mb-8">
-          <Sparkles className="w-4 h-4 text-zinc-400" />
-          <span className="text-sm text-zinc-400">Встречайте v2.0 — теперь с ИИ</span>
+          <Icon name="Truck" className="w-4 h-4 text-zinc-400" />
+          <span className="text-sm text-zinc-400">Быстрая доставка по всей России</span>
         </div>
 
         {/* Headline - customize your value proposition */}
         <h1 className="font-display text-5xl md:text-7xl font-bold tracking-tight mb-6">
-          <span className="text-zinc-100 block">Создавай быстрее.</span>
+          <span className="text-zinc-100 block">Автозапчасти.</span>
           <span className="bg-gradient-to-r from-zinc-500 via-zinc-300 to-zinc-500 bg-clip-text text-transparent">
-            Запускай умнее.
+            Всегда в наличии.
           </span>
         </h1>
 
         {/* Subheadline - describe your product */}
         <p className="text-lg md:text-xl text-zinc-500 max-w-2xl mx-auto mb-10 leading-relaxed text-balance">
-          Единая платформа, которая помогает командам создавать, развертывать и масштабировать продукты в 10 раз быстрее. Без сложностей, только результат.
+          Оригинальные запчасти и аксессуары для вашего автомобиля. Более 50 000 товаров на складе, доставка за 24 часа. Гарантия качества на всё.
         </p>
 
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a href="#pricing">
-            <LiquidCtaButton>Попробовать бесплатно</LiquidCtaButton>
+            <LiquidCtaButton>Перейти в каталог</LiquidCtaButton>
           </a>
           <a
             href="#features"
             className="group flex items-center gap-2 px-6 py-3 text-sm font-medium text-zinc-400 hover:text-zinc-100 transition-colors"
           >
-            <span>Как это работает</span>
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
+            <span>Наши преимущества</span>
+            <Icon name="ArrowRight" className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
           </a>
         </div>
 
@@ -94,7 +94,7 @@ export function HeroSection() {
                 <span className="text-zinc-400 font-medium ml-1 text-sm">5.0</span>
               </div>
               <p className="text-sm text-zinc-500">
-                Нам доверяют <span className="text-zinc-300 font-medium">10 000+</span> разработчиков
+                Нам доверяют <span className="text-zinc-300 font-medium">15 000+</span> автовладельцев
               </p>
             </div>
           </div>

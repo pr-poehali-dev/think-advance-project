@@ -3,58 +3,58 @@ import { TestimonialsColumn } from "@/components/ui/testimonials-column"
 
 const testimonials = [
   {
-    text: "Velocite сократил наш пайплайн деплоя с 4 часов до 12 минут. Автоматизация кардинально изменила наш CI/CD процесс.",
+    text: "Заказываю запчасти уже 3 года. Всегда оригинал, быстрая доставка и адекватные цены. Рекомендую!",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
-    name: "Анна Смирнова",
-    role: "CTO в TechFlow Solutions",
+    name: "Александр П.",
+    role: "Владелец Toyota Camry",
   },
   {
-    text: "Мы изучили 15 платформ, прежде чем выбрать Velocite. ROI стал очевиден уже в первый месяц использования.",
+    text: "Нужны были тормозные колодки на старую модель. Менеджер нашел за 10 минут, привезли на следующий день.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-    name: "Максим Волков",
-    role: "VP Engineering в Quantum Dynamics",
+    name: "Дмитрий С.",
+    role: "Владелец Honda Accord",
   },
   {
-    text: "Наша команда выпустила в 3 раза больше фич за квартал. Инструменты совместной работы сделали удаленку бесшовной.",
+    text: "Отличный магазин! Большой выбор масел, фильтров и расходников. Цены ниже, чем у конкурентов.",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
-    name: "Елена Родригес",
-    role: "Head of Product в Alpine Ventures",
+    name: "Мария К.",
+    role: "Владелец Mazda CX-5",
   },
   {
-    text: "Онбординг прошел невероятно гладко. Вся команда разработки стала продуктивной уже на первой неделе.",
+    text: "Заказал детали для подвески. Всё пришло в упаковке, установилось без проблем. Качество на высоте!",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-    name: "Дмитрий Парк",
-    role: "IT-директор в Stellar Analytics",
+    name: "Игорь В.",
+    role: "Владелец BMW 5-series",
   },
   {
-    text: "Поддержка клиентов на высоте. Помогли мигрировать всю инфраструктуру с нулевым даунтаймом.",
+    text: "Поддержка работает четко. Помогли подобрать аналог дорогой детали, сэкономил 15 тысяч.",
     image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
-    name: "Анна Ковальски",
-    role: "Операционный директор в Nova Industries",
+    name: "Елена Л.",
+    role: "Владелец Kia Sportage",
   },
   {
-    text: "API-интеграции сэкономили сотни часов разработки. Все работает из коробки.",
+    text: "Постоянно беру здесь аксессуары для авто. Удобный каталог, быстрое оформление, лучший магазин!",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
-    name: "Алексей Вилсон",
-    role: "CEO в Meridian Tech",
+    name: "Андрей М.",
+    role: "Владелец Ford Focus",
   },
   {
-    text: "Velocite изменил наш подход к релизам. Откаты, занимавшие часы, теперь происходят за секунды.",
+    text: "Требовалась редкая запчасть. Нашли за 2 дня и доставили. Профессионалы своего дела!",
     image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face",
-    name: "Лиза Томпсон",
-    role: "DevOps Lead в Cascade Systems",
+    name: "Светлана Р.",
+    role: "Владелец Volkswagen Polo",
   },
   {
-    text: "Аналитический дашборд дает инсайты, которых у нас раньше не было. Data-driven решения стали нормой.",
+    text: "Удобный сайт, легко найти нужное. Цены приятно удивляют. Доставка точно в срок!",
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face",
-    name: "Михаил Чен",
-    role: "Product Manager в Vertex Labs",
+    name: "Олег Н.",
+    role: "Владелец Hyundai Solaris",
   },
   {
-    text: "Частота деплоев выросла в 5 раз без дополнительных затрат на инфраструктуру. Впечатляющая платформа.",
+    text: "Перешел сюда по совету друга. Не разочаровался — всё на высшем уровне. Буду заказывать ещё!",
     image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
-    name: "Рахиль Ким",
-    role: "Engineering Manager в Prism Digital",
+    name: "Виктория Ж.",
+    role: "Владелец Nissan Qashqai",
   },
 ]
 
@@ -62,7 +62,7 @@ const firstColumn = testimonials.slice(0, 3)
 const secondColumn = testimonials.slice(3, 6)
 const thirdColumn = testimonials.slice(6, 9)
 
-const logos = ["TechFlow", "Quantum Dynamics", "Alpine Ventures", "Stellar Analytics", "Nova Industries", "Meridian Tech"]
+const logos = ["Bosch", "Brembo", "Castrol", "Mann Filter", "NGK", "Continental"]
 
 export function TestimonialsSection() {
   return (
